@@ -52,10 +52,15 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
-      <section class="first-section">
+      <section class="first-section hidden">
         <div class="container">
           <h1 class="first-section-title">
             Effective Solutions for Your Business
@@ -65,7 +70,7 @@
           </button>
         </div>
       </section>
-      <section class="second-section">
+      <section class="second-section hidden">
         <div class="container">
           <h2 class="second-section-title visually-hidden">Our Benefits</h2>
           <ul class="second-section-list">
@@ -120,7 +125,7 @@
           </ul>
         </div>
       </section>
-      <section class="third-section">
+      <section class="third-section hidden">
         <div class="container">
           <h2 class="third-section-title">Our Team</h2>
           <ul class="third-section-list">
@@ -287,7 +292,7 @@
           </ul>
         </div>
       </section>
-      <section class="fourth-section">
+      <section class="fourth-section hidden">
         <div class="container">
           <h2 class="fourth-section-title">Our Portfolio</h2>
           <ul class="fourth-section-list">
@@ -404,7 +409,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container container-footer">
         <div class="footer-logo-text">
           <a class="logo footer-logo" href="./index.html"
@@ -477,7 +482,7 @@
     </footer>
 
     <!-- add class "is-open" to activate backdrop with modal-window -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-button" data-modal-close>
           <svg class="icon modal-icon-close" width="8" height="8">
