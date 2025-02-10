@@ -52,11 +52,97 @@
             </li>
           </ul>
         </address>
-        <button class="burger-btn" type="button">
+        <button class="burger-btn" type="button" data-menu-open>
           <svg class="burger-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-burger"></use>
           </svg>
         </button>
+      </div>
+
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+          <button class="btn-mobile-menu-close" type="button" data-menu-close>
+            <svg class="icon mobile-icon-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-menu-nav-list">
+
+              <li class="mobile-menu-list-item">
+                <a class="mobile-menu-nav-link current" href="./index.html"
+                  >Studio</a
+                >
+              </li>
+
+              <li class="mobile-menu-list-item">
+                <a class="mobile-menu-nav-link" href="">Portfolio</a>
+              </li>
+
+              <li class="mobile-menu-list-item">
+                <a class="mobile-menu-nav-link" href="">Contacts</a>
+              </li>
+
+            </ul>
+          </nav>
+
+          <address class="mobile-menu-contacts">
+            <ul class="mobile-menu-contacts-list">
+
+              <li class="mobile-menu-contacts-item">
+                <a class="mobile-menu-contacts-link current" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+
+              <li class="mobile-menu-contacts-item">
+                <a
+                  class="mobile-menu-contacts-link 
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+
+            </ul>
+          </address>
+
+          <ul class="mobile-menu-list-soc">
+
+            <li class="mobile-menu-item-soc">
+              <a href="no-way" class="mobile-menu-item-soc-link">
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="mobile-menu-item-soc">
+              <a href="no-way" class="mobile-menu-item-soc-link">
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="mobile-menu-item-soc">
+              <a href="no-way" class="mobile-menu-item-soc-link">
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li class="mobile-menu-item-soc">
+              <a href="no-way" class="mobile-menu-item-soc-link">
+                <svg class="icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -570,5 +656,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
