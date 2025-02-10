@@ -3,33 +3,33 @@
 /* ------FIRST-SECTION------ */
 
 .first-section {
-  padding: 188px 0;
-  max-width: 1440px;
-  margin: 0 auto;
+  /* padding: 188px 0;
+  max-width: 1440px; */
+  /* margin: 0 auto; */
 
-  background: #2e2f42;
+  /* background: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
-  background-repeat: no-repeat;
+    url(../images/people-office.jpg); */
+  /* background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .first-section-title {
-  font-size: 56px;
+  /* font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
+  letter-spacing: 0.02em; */
+  /* text-align: center; */
+  /* color: #fff; */
 
-  max-width: 496px;
-  margin: 0 auto 48px;
+  /* max-width: 496px; */
+  /* margin: 0 auto 48px; */
 }
 
-.btn {
+/* .btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -53,7 +53,7 @@
 .btn:hover,
 .btn:focus {
   background-color: #404bbf;
-}
+} */
 
 /* ------SECOND-SECTION------ */
 
