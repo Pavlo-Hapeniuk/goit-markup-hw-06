@@ -57,7 +57,7 @@
 
 /* ------SECOND-SECTION------ */
 
-.second-section {
+/* .second-section {
   padding: 120px 0;
 }
 
@@ -109,15 +109,16 @@
   font-size: 16px;
   line-height: 1.5;
   /* change letter-spacing from 0.02 to 0.01 */
-  letter-spacing: 0.01em;
+/* letter-spacing: 0.01em;
   color: #434455;
-}
+} */
+*/
 
 /* ------THIRD-SECTION------ */
 
 .third-section {
-  background-color: #f4f4fd;
-  text-transform: capitalize;
+  /* background-color: #f4f4fd;
+  text-transform: capitalize; */
 
   padding: 120px 0;
 }
