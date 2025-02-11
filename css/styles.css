@@ -392,7 +392,7 @@ button {
 
 .first-section {
   padding: 72px 0;
-  max-width: 322px;
+  width: 322px;
   height: 432px;
 
   margin: 0 auto;
