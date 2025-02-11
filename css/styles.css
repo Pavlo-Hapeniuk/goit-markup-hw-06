@@ -723,7 +723,8 @@ button {
   }
 
   .third-section-list {
-    gap: 24px;
+    row-gap: 64px;
+    column-gap: 24px;
   }
 }
 
