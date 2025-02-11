@@ -567,8 +567,7 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  /* change letter-spacing from 0.02 to 0.01 */
-  letter-spacing: 0.01em;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -620,5 +619,10 @@ button {
 
   .second-section-subtitle-text {
     font-weight: 400;
+  }
+
+  .second-section-subtitle-text {
+    /* change letter-spacing from 0.02em to 0.01em */
+    letter-spacing: 0.01em;
   }
 }
