@@ -118,10 +118,10 @@
 
 /* .third-section {
   /* background-color: #f4f4fd;
-  text-transform: capitalize; */
+  text-transform: capitalize;
 
   padding: 120px 0;
-}
+} */
 
 .third-section-title {
   font-size: 36px;
@@ -200,7 +200,8 @@
 .item-soc-link:hover,
 .item-soc-link:focus {
   background-color: #404bbf;
-} */
+}
+*/
 
 /* ------FOURTH-SECTION------ */
 
