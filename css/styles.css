@@ -393,7 +393,6 @@ button {
 .first-section {
   padding: 72px 0;
   max-width: 322px;
-  height: 432px;
 
   margin: 0 auto;
 
@@ -465,7 +464,6 @@ button {
   .first-section {
     padding: 112px 0;
     max-width: 768px;
-    height: 436px;
 
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -498,7 +496,6 @@ button {
   .first-section {
     padding: 188px 0;
     max-width: 1440px;
-    height: 600px;
 
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -576,6 +573,7 @@ button {
 @media screen and (min-width: 768px) {
   .second-section-list {
     gap: 24px;
+    row-gap: 72px;
   }
 
   .second-section-item {
@@ -606,7 +604,6 @@ button {
     padding: 24px 100px;
     align-items: center;
     justify-content: center;
-    margin-bottom: 8px;
 
     background: #f4f4fd;
   }
@@ -615,8 +612,6 @@ button {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-
-    margin-bottom: 8px;
   }
 
   .second-section-subtitle-text {
@@ -1128,8 +1123,6 @@ button {
 .modal-button:hover .modal-icon-close,
 .modal-button:focus .modal-icon-close {
   fill: #ffffff;
-  background-color: #404bbf;
-  border: none;
 }
 
 .modal-text {

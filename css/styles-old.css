@@ -524,8 +524,6 @@
 .modal-button:hover .modal-icon-close,
 .modal-button:focus .modal-icon-close {
   fill: #ffffff;
-  background-color: #404bbf;
-  border: none;
 }
 
 .modal-text {
